@@ -1,4 +1,4 @@
-[oier-wiki地址](http://47.112.43.112)
+[oier-wiki地址（请点击这里进入oier-wiki）](http://47.112.43.112)
 
 # 这是一个为oier准备的wiki
 
