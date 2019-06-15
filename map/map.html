@@ -1,6 +1,24 @@
-<html><head>
-  <p>"map"</p>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{
+  margin:0; 
+  padding:0; 
+  overflow-y:hidden
+}
+</style>
+<script type="text/javascript"> 
+window.onerror=function(){return true;} 
+$(function(){ 
+  headerH = 0;  
+  var h=$(window).height();
+  $("#iframe").height((h-headerH)+"px"); 
+});
+</script>
 </head>
- <body>
-   <iframe src="https://uri.amap.com/marker?position=119.19810,39.23333"height="100%" width="100%" id="frame_full" frameborder="0" scrolling="auto"></iframe>
-</body></html>
+<body>
+<iframe id="iframe" frameborder="0" src="https://uri.amap.com/marker?position=119.19810,39.23333" style="width:100%;"></iframe>
+</body>
+</html>
