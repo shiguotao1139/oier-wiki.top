@@ -22,3 +22,48 @@ div.content>.buttons{
 footer>p{
     text-align: center;
 }
+div.main{
+    align-self: center;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.404);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+button{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(255, 71, 0);
+    color: #fff;
+    transition-property: background-color,transform;
+    transition-duration: 0.5s,0.5s;
+    border: none;
+}
+button:hover{
+    background-color: rgb(255, 145, 0);
+    transform: scale(1.05);
+}
+textarea{
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 5px;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    transition: background-color 0.5s;
+}
+textarea:hover,textarea:active,textarea:focus{
+    background-color: rgba(255, 255, 255, 0.925);
+}
+:focus{
+    outline: none;
+}
